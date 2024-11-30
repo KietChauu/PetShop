@@ -1,0 +1,171 @@
+@font-face {
+    font-family: BarlowCondensed-Regular;
+    src: url("../fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf")
+}
+
+
+@font-face {
+    font-family: Quicksand;
+    src: url("../fonts/Quicksand-VariableFont_wght.ttf")
+}
+
+
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Open Sans', sans-serif;
+
+    outline: none;
+
+    font-size: 16px;
+
+}
+
+.title-product {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+
+    margin-right: 15px;
+    color: #fff;
+    background-color: #717170;
+}
+
+.create-container {
+
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.create-container {
+
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.submit {
+    background-color: #717170;
+    color: #fff;
+    display: inline-block;
+    width:70px;
+    height: 50px;
+    /* padding: 16px 8px; */
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn:hover,
+.cancel:hover {
+    background-color: #30302e;
+    color: #fff;
+}
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    font-size: 16px;
+
+    text-align: left;
+
+    padding: 10px;
+
+}
+
+thead {
+    text-transform: uppercase;
+}
+
+th,
+td {
+    padding: 10px;
+
+    vertical-align: middle;
+    border-bottom: 1px solid #E0E0E0;
+    text-align: center;
+
+
+}
+
+.table {
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding: 20px 40px 40px 40px;
+}
+
+input[type=text],
+input[type=number],
+input[type=file] {
+    border: 1px solid #E0E0E0;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.sex {
+    margin-bottom: 20px;
+}
+
+.sex-title {
+    margin-right: 40px;
+
+}
+
+.sex-item {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+input[type=submit] {
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: #717170;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+input[type=submit]:hover {
+    background-color: #30302e;
+
+}
+
+.cancel {
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #717170;
+    cursor: pointer;
+    border: 1px solid #30302e;
+    border-radius: 8px;
+}

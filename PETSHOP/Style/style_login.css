@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.form{
+    border: 1px solid;
+    border-radius: 25px;
+    width: 700px;
+    height:500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(224, 244, 255);
+}
+.header{
+    padding-left: 250px;
+    display: flex;
+    border-top-left-radius: 25px 25px;
+    border-top-right-radius: 25px 25px;
+    background-color: rgb(142, 172, 205);
+    height: 80px;
+}
+.header img {
+    width: 40px;
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.header p{
+    color:white;
+    padding-left: 5px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 25px;
+}
+.body_form{
+    line-height: 3.5;
+    padding: 20px;
+    margin: 30px;
+}
+.username > label{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.username> input{
+    padding-left: 20px;
+    border-radius: 30px;
+    height:30px;
+    width: 350px;
+    margin-left:20px;
+}
+.password > label{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.password> input{
+    padding-left: 20px;
+    border-radius: 30px;
+    height:30px;
+    width: 350px;
+    margin-left:90px;
+}
+.footer_form > input{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 300px;
+    width: 150px;
+    height:70px;
+    border-radius: 30px;
+    background-color: rgb(142, 172, 205);
+    font-size: 20px;
+}
+.footer_form > input:hover{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 300px;
+    width: 150px;
+    height:70px;
+    border-radius: 30px;
+    background-color: rgb(78, 94, 111);
+}
+
